@@ -92,12 +92,10 @@ function toggleSymbols() {
     if (symbolsRemoved == false) {
         removeSymbols()
         symbolsRemoved = true
-        console.log(characters)
     }
     else {
         addSymbols()
         symbolsRemoved = false
-        console.log(characters)
     }
 }
 
@@ -105,12 +103,10 @@ function toggleNumbers() {
     if (numbersRemoved == false) {
         removeNumbers()
         numbersRemoved = true
-        console.log(characters)
     }
     else {
         addNumbers()
         numbersRemoved = false
-        console.log(characters)
     }
 
 }
